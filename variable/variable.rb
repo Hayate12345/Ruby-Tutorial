@@ -10,7 +10,7 @@ num = 100
 name = "Takeda"
 
 puts num.class # ? Integer
-puts name_test.sclass # ? Integer
+puts name.sclass # ? String
 
 # ! 問題
 # * 1、自分の年齢を変数（age）に格納し、出力してください。
