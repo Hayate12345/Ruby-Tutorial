@@ -9,6 +9,7 @@
 num = 100
 name = "Takeda"
 
+# ? 型を確認
 puts num.class # ? Integer
 puts name.sclass # ? String
 
