@@ -12,7 +12,7 @@ class Calculation
     return result
   end
 
-  #引き算する関数
+  #引き算する関
   def hikizan(val1, val2)
     result = val1 - val2
     return result
