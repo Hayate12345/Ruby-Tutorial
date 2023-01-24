@@ -1,33 +1,10 @@
-# Ruby-Tutorial-Vol.1
+# Ruby-Tutorial
 
-## グループ開発のための研修
+* Ruby version 3.1.0
 
-### 1、hello_rubyセクション
-・p, puts, printなどの違いをおさえる。
-・スネークケース、キャメルケースのはなし
-・rubyを実行する方法
+* Rails version None
 
-### 2、variableセクション
-・静的型付けと動的型付けの違い（コード例とそれぞれのメリット）
-・動的型付けの実行例
+* Database creation None
 
-### 3、repetitionセクション
-・for
-・foreach
-・while
-・times
-・これらループの使い分けを学ぶ
-
-### 4、branchセクション
-・if
-・else
-・elsif
-・基本的な条件分岐を学ぶ
-
-### 5、methodセクション
-・基本的な関数の作り方
-・引数を活用した関数の作り方
-
-### 7、classセクション
-・クラスの実行の仕方
-・クラスを定義する方法
+## チーム開発用の研修素材
+https://docs.google.com/document/d/10Dv2bLdlutNnUD-OdAAqt_KYRk6IgkYSBqX8Mr6_7ck/edit#heading=h.m4tlprtvpa3b

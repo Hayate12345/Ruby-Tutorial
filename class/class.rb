@@ -12,7 +12,7 @@ class Calculation
     return result
   end
 
-  #引き算する関
+  #引き算する関数
   def hikizan(val1, val2)
     result = val1 - val2
     return result
@@ -20,5 +20,16 @@ class Calculation
 
   # ! 問題
   # * 1、掛け算する関数を自作してください。
+  # 掛け算する関数
+  def kakezan(val1, val2)
+    result = val1 * val2
+    return result
+  end
+
   # * 2、割り算する関数を自作してください。
+  # 割り算する関数
+  def warizan(val1, val2)
+    result = val1 / val2
+    return result
+  end
 end

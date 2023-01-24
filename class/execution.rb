@@ -17,4 +17,11 @@ hikizan_result = calculation_class.hikizan(300, 200)
 puts hikizan_result
 
 # ? クラス内に作った掛け算関数を呼び出し、結果を出力してください。
+kakezan_result = calculation_class.kakezan(300, 200)
+# 計算結果を出力
+puts kakezan_result
+
 # ? クラス内に作った割り算関数を呼び出し、結果を出力してください。
+warizan_result = calculation_class.warizan(600, 200)
+# 計算結果を出力
+puts warizan_result
