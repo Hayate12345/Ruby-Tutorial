@@ -1,30 +1,25 @@
-# ! 問題
-# * 1、関数catを作り、catを呼び出したら猫ですと出力させてください。
-def cat
-  puts "cat"
+# ! メソッドについて （メソッドは何回も使う処理を共通化して記載する）
+# ? (例) dogと言う関数を作成して呼び出したら犬と出力する
+def dog
+  puts "犬"
 end
 
-cat()
+# メソッドの呼び出し方 (別ファイルの場合はファイルを読み込む必要がある。メソッド名を書くことで呼び出すことができる)
+dog()
 
-# * 2、2つの数を足し算し、その結果を出力する関数 tasizanを作成してください。
+# ? （例) print_printと言う与えられた引数を出力する関数を作成して出力する(putsを自作したイメージ)
+def print_print(word)
+  puts word
+end
+
+# メソッドを呼び出す
+print_print("hayate")
+
+# ! 問題
+# * 1、関数catを作成してcatを呼び出したら猫ですと出力させてください。
+# * 2、2つの数を足し算し、その結果を出力する関数 tasizanを作成して結果を出力してください。
 val = 100
 val2 = 200
 
-def tasizan(val, val2)
-  puts val + val2
-end
-
-tasizan(val, val2)
-
-# * 3、年齢が入る変数ageを用意し、20歳以上なら20歳以上、20歳以下と出力する関数age_hanteni関数を作成してください。
+# * 3、年齢が入る変数ageを用意して20歳以上なら20歳以上、20歳以下と出力する関数age_hanteni関数を作成して結果を出力してください。
 age = 18
-
-def age_hantei(age)
-  if age <= 20
-    puts "20歳以下です。"
-  else
-    puts "20歳以上です。"
-  end
-end
-
-age_hantei(age)
